@@ -23,7 +23,7 @@ Clone this repository or simply download `dorepy.py` to your local machine:
 git clone https://yourrepositoryurl.com/dorepy.git
 ```
 
-###Usage
+### Usage
 Navigate to the directory containing dorepy.py and run:
 
 ```bash
@@ -43,11 +43,11 @@ python dorepy.py "http://example.com" "\.pdf$"
 
 This command downloads all PDF files which are linked to on http://example.com.
 
-Contributing
+##### Contributing
 Feel like DoRePy missed a beat? Fork the repo, add your spin, and submit a pull request. All contributions are welcome!
 
-License
+##### License
 Distributed under the **MIT** License. See LICENSE for more information.
 
-A Note on Responsible Use
+##### A Note on Responsible Use
 Please use DoRePy wisely and respect website terms of service and your local laws as applicable.
