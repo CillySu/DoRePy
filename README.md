@@ -20,7 +20,7 @@
 Clone this repository or simply download `dorepy.py` to your local machine:
 
 ```bash
-git clone https://yourrepositoryurl.com/dorepy.git
+git clone https://github.com/CillySu/DoRePy/dorepy.git
 ```
 
 ### Usage
