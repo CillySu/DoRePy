@@ -53,7 +53,7 @@ python dorepy.py "http://example.com" "\.pdf$"
 This command downloads all PDF files which are linked to on http://example.com.
 
 ##### Contributing
-Feel like DoRePy missed a beat? Fork the repo, add your spin, and submit a pull request. All contributions are welcome!
+Feel like DoRePy hit the wrong note? Are we singing off a different hymn sheet? Fork the repo, perform your cover version, and submit a pull request. 
 
 ##### License
 Distributed under the **MIT** License. See LICENSE for more information.
