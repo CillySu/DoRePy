@@ -17,6 +17,14 @@
 
 ### Installation
 
+Below are the two methods of installing **DoRePy**
+1. Pip
+
+```bash
+pip install DoRePy
+```
+
+2. Clone the repo
 Clone this repository or simply download `dorepy.py` to your local machine:
 
 ```bash
@@ -27,9 +35,10 @@ git clone https://github.com/CillySu/DoRePy/dorepy.git
 Navigate to the directory containing dorepy.py and run:
 
 ```bash
-python dorepy.py [URL] [PATTERN]
+dorepy [URL] [PATTERN]
 ```
 
+if you installed with pip. If you downloaded the .py run the dorepy.py file instead such as `python ./dorepy.py [URL] [PATTERN]`
 Where:
 
 [URL] is the webpage URL from which you want to download files.
