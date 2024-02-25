@@ -1,7 +1,9 @@
 # DoRePy - (Do)wnload (Re)gex (Py)thon
 
-**DoRePy** (pronounced like *doe-ray-pee*) is your go-to script for automating the download of files from a webpage that match a specific regex pattern. Fed up with manually sifting through pages to download files? DoRePy has got your back!
 
+
+**DoRePy** (pronounced like *doe-ray-pee*) is your go-to script for automating the download of files from a webpage that match a specific regex pattern. Fed up with manually sifting through pages to download files? DoRePy has got your back!
+![Logo](https://i.imgur.com/o409nEx.png)
 ## Features
 
 - **Regex Pattern Matching**: Use the power of regular expressions to target exactly the files you need.
