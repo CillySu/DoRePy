@@ -52,6 +52,21 @@ python dorepy.py "http://example.com" "\.pdf$"
 
 This command downloads all PDF files which are linked to on http://example.com.
 
+1. `\.` matches all literal `.`
+2. `pdf` matches pdf (when following a literal `.`)
+3. `$` matches the end of the filename, the end result being that files *ending* in `.pdf` are matched. See [RegExr](https://regexr.com) for help on building regex patterns.
+
+### Roadmap
+
+The following features are envisaged for **DoRePy**'s second movement:
+
+1. Batch URL support, allowing one regex pattern to be matched against a list of URLs
+2. Combinatorial regex logic matching, such that users can supply multiple regex patterns and combine them with logical operands AND/NOT/NOR/XOR/XNOR
+3. User-specified output directory for downloading instead of using the present working directory
+4. User-specified sleep time instead of the current behaviour (check for website-defined retry-after time, failing this default to 30s)
+5. Recursive downloading of links which are present in pages linked to in a URL, with CLI arguments to define depth of recursion such as -L in `tree`
+6. Ability to control whether regex is cAsE sEnSiTiVe (currently always case insensitive)
+   
 ##### Contributing
 Feel like DoRePy hit the wrong note? Are we singing off a different hymn sheet? Fork the repo, perform your cover version, and submit a pull request. 
 
