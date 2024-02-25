@@ -32,7 +32,7 @@ git clone https://github.com/CillySu/DoRePy/dorepy.git
 ```
 
 ### Usage
-Navigate to the directory containing dorepy.py and run:
+Navigate to the directory in which you want to have the files downloaded
 
 ```bash
 dorepy [URL] [PATTERN]
