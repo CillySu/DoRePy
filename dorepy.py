@@ -115,7 +115,7 @@ if __name__ == "__main__":
     parser.add_argument('-b', '--batch', action='store', help='Provide multiple URLs enclosed in quotes (e.g `-b "example1.com example2.com"`). Separate URLs with spaces.')
     parser.add_argument('URL', nargs='?', help='One URL (required if not using --batch)')
     parser.add_argument('REGEX', nargs='?', default='.*', help='Regex pattern (defaults to .* to match all linked files)')
-    parser.add_argument('-o', '--output', type='str', help='Output directory')
+    parser.add_argument('-o', '--output', help='Output directory')
     parser.add_argument('-c', '--caps-sensitive', action='store_true', help='Make regex capitalisation-sensitive, by default regex-matching is caps insensitive')
     parser.add_argument('-w', '--wait', type=int, default=0, help='Seconds to wait between downloads (defaults to 0)')
     parser.add_argument('-a', '--advanced-regex', help='NOT YET IMPLEMENTED: Allow multiple regex patterns with logical operations, e.g. `(("dogs" NOT "cats") AND "pet" AND "\.html$")`')
